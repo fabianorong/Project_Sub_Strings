@@ -20,7 +20,7 @@ The `#substrings` method takes two arguments: a word and a dictionary. It return
 dictionary = ["below","down","go","going","horn","how","howdy","it","i","low","own","part","partner","sit"]
 
 # Method
-def substrings(word, dictionary)
+def substrings(word, dic)
   myhash ={}
     i = 0
     word = word.downcase    
